@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Bakasho"
+  },
+  "home": {
+    "slogan": "Open Source. Para todos. Para siempre",
+    "description": "Somos una cooperativa de artesanos",
+    "contact" : "contacto",
+    "menu": {
+      "home": "Casa",
+      "projects": "Proyectos"
+    }
+  },
+  "mission": {
+    "header": "El Objectivo",
+    "statement_intro": "Bakasho es una organización con una sola meta - difundir código abierto.",
+    "statement_p1" : "Somos una cooperativa de individuos quienes se esfuerzan a construir software que resuelve problemas del mundo real por los cuales o no existen o no tienen una solución fiable en la esfera del código abierto.",
+    "statement_p2" : "Cada fase del proceso desde el plan de negocios hasta el código de la aplicación hasta las analíticas en tiempo real esta disponible a todos.",
+    "statement_p3" : "Nosotros creemos que la divulgación de estos recursos es esencial, no solo para difundir conocimientos y ayudar a los que quieren aprender, sino que también para actuar como un fundamento en la construcción de una organización transparente y una mejor sociedad global. Porque no somos solo una compañia de código abierto somos una cooperativa y somos nuestros propios clientes."
+  },
+  "footer": {
+    "en": "en",
+    "es": "es"
+  }
+}

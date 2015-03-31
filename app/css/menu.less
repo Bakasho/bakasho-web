@@ -1,0 +1,43 @@
+.menu{
+  .clearfix();
+
+  position: fixed;
+  right: 0;
+  height: 100%;
+
+  .button{
+    float: left;
+    display: block;
+    padding: 16px;
+
+    &:hover{
+      .button-img{
+        opacity: 0.5;
+      }
+    }
+  }
+  .content{
+    float: right;
+    .nav{
+      padding: 8px;
+      margin: 0;
+
+      .item{
+        margin-bottom: 8px;
+        list-style: none;
+        a{
+          text-align: center;
+          display: block;
+          .border-radius(@border-radius);
+          color: @white;
+          border: 2px solid @white;
+          padding: 4px 64px;
+          &:hover{
+            color: @red;
+            border-color: @red;
+          }
+        }
+      }
+    }
+  }
+}

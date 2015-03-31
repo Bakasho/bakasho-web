@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Bakasho"
+  },
+  "home": {
+    "slogan": "Open Source. For everyone. Forever",
+    "description": "We are a Collection of Craftsmen",
+    "contact": "contact",
+    "menu": {
+      "home": "Home",
+      "projects": "Projects"
+    }
+  },
+  "mission": {
+    "header": "The Mission",
+    "statement_intro": "Bakasho is an organization with one goal - disseminate open source software.",
+    "statement_p1" : "We are a collective group of individuals building software products which strive solve real world problems that are either seldom addressed or lacking an innovative open source solution.",
+    "statement_p2" : "Every phase of the process, from the initial business plan to application code to realtime analytics is openly available to everyone.",
+    "statement_p3" : "We believe providing these resources to everyone is essential, not only to spread knowledge and aid those who wish to learn, but also as a core fundament to building a transparent organization and a better global society, because we are not just a software company we are a collective and we are our customers."
+  },
+  "footer": {
+    "en": "en",
+    "es": "es"
+  }
+}
