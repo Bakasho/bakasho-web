@@ -63,11 +63,12 @@
     "native.less": "git://github.com/nathanfaucett/native.less",
     "opacity.less": "git://github.com/nathanfaucett/opacity.less",
     "page": "git://github.com/nathanfaucett/page",
-    "virt": "git://github.com/nathanfaucett/virt",
-    "virt_dom": "git://github.com/nathanfaucett/virt_dom",
+    "prop_types": "git://github.com/nathanfaucett/prop_types",
     "request": "git://github.com/nathanfaucett/request",
     "state": "git://github.com/nathanfaucett/state",
     "trim": "git://github.com/nathanfaucett/trim",
-    "values": "git://github.com/nathanfaucett/values"
+    "values": "git://github.com/nathanfaucett/values",
+    "virt": "git://github.com/nathanfaucett/virt",
+    "virt_dom": "git://github.com/nathanfaucett/virt_dom"
   }
 }
