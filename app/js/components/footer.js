@@ -1,5 +1,7 @@
 var virt = require("virt"),
-    propTypes = require("prop_types");
+    propTypes = require("prop_types"),
+    app = require("../app"),
+    UserStore = require("../stores/user_store");
 
 
 var FooterPrototype;
@@ -26,7 +28,14 @@ Footer.contextTypes = {
 FooterPrototype = Footer.prototype;
 
 FooterPrototype.__onClick = function(e) {
+    var DOMNode = e.currentTarget;
+
     e.preventDefault();
+
+    app.dispatcher.handleViewAction({
+        actionType: UserStore.consts.USER_CHANGE_LOCALE,
+        locale: DOMNode.getAttribute("data-locale")
+    });
 };
 
 FooterPrototype.render = function() {
