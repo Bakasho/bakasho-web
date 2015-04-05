@@ -1,5 +1,5 @@
 var virt = require("virt"),
-    virtDOM = require("virt_dom"),
+    virtDOM = require("virt-dom"),
     page = require("page"),
     i18n = require("i18n"),
     request = require("request"),
@@ -60,7 +60,7 @@ app.init = function() {
 
     page.init();
 
-    virtDOM(virt.createView(App), app.node);
+    virtDOM.render(virt.createView(App), app.node);
 };
 
 

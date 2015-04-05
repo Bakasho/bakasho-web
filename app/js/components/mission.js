@@ -1,5 +1,5 @@
 var virt = require("virt"),
-    virtDOM = require("virt_dom"),
+    virtDOM = require("virt-dom"),
     propTypes = require("prop_types"),
     eventListener = require("event_listener");
 

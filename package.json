@@ -69,6 +69,6 @@
     "trim": "git://github.com/nathanfaucett/trim",
     "values": "git://github.com/nathanfaucett/values",
     "virt": "git://github.com/nathanfaucett/virt",
-    "virt_dom": "git://github.com/nathanfaucett/virt_dom"
+    "virt-dom": "git://github.com/nathanfaucett/virt-dom"
   }
 }
