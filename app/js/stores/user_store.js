@@ -237,7 +237,7 @@ UserStore.signUp = function(email, password, firstname, lastname, locale, callba
     });
 };
 
-UserStore.register(function(payload) {
+UserStore.register(function onUserPayload(payload) {
     var action = payload.action;
 
     switch (action.actionType) {

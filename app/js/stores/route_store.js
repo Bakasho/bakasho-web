@@ -50,7 +50,7 @@ RouteStore.fromJSON = function(json) {
     _route = json;
 };
 
-RouteStore.register(function(payload) {
+RouteStore.register(function onRoutePayload(payload) {
     var action = payload.action;
 
     if (action.actionType === consts.ROUTE_CHANGE) {

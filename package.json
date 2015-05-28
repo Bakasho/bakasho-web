@@ -17,13 +17,13 @@
     "npm": "2.5.1"
   },
   "devDependencies": {
-    "comn": "nathanfaucett/comn",
-    "comn_css": "nathanfaucett/comn_css",
+    "comn": "git://github.com/nathanfaucett/comn",
+    "comn_css": "git://github.com/nathanfaucett/comn_css",
     "del": "^1.1.1",
-    "ejs": "nathanfaucett/ejs",
-    "extend": "nathanfaucett/extend",
-    "file_path": "nathanfaucett/file_path",
-    "file_utils": "nathanfaucett/file_utils",
+    "ejs": "git://github.com/nathanfaucett/ejs",
+    "extend": "git://github.com/nathanfaucett/extend",
+    "file_path": "git://github.com/nathanfaucett/file_path",
+    "file_utils": "git://github.com/nathanfaucett/file_utils",
     "gaze": "^0.5.1",
     "gulp": "^3.8.11",
     "gulp-connect": "2.2.0",
@@ -36,7 +36,7 @@
     "gulp-uglify": "1.1.0",
     "is_object": "git://github.com/nathanfaucett/is_object",
     "less": "2.4.0",
-    "livereload": "nathanfaucett/livereload"
+    "livereload": "git://github.com/nathanfaucett/livereload"
   },
   "dependencies": {
     "border-radius.less": "git://github.com/nathanfaucett/border-radius.less",
